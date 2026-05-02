@@ -191,7 +191,8 @@ h2 {
 
 .audience-side {
   display: grid;
-  gap: 18px;
+  align-self: start;
+  gap: 12px;
 }
 
 .presenter-grid {
@@ -349,6 +350,22 @@ textarea:focus {
   padding: 18px;
 }
 
+.audience-side .join-panel {
+  justify-self: end;
+  width: min(100%, 300px);
+  padding: 12px;
+}
+
+.audience-side .join-panel h2 {
+  margin-bottom: 3px;
+  font-size: 1rem;
+}
+
+.audience-side .join-panel p {
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
 .live-pill {
   display: inline-flex;
   align-items: center;
@@ -363,6 +380,13 @@ textarea:focus {
   font-weight: 850;
 }
 
+.audience-side .live-pill {
+  min-height: 24px;
+  padding: 0 8px;
+  margin-bottom: 8px;
+  font-size: 0.72rem;
+}
+
 .qr {
   display: block;
   width: min(100%, 240px);
@@ -372,11 +396,21 @@ textarea:focus {
   border-radius: 8px;
 }
 
+.audience-side .qr {
+  width: 132px;
+  margin: 8px auto 10px;
+}
+
 .share-line {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 42px;
   gap: 8px;
   align-items: center;
+}
+
+.audience-side .share-line {
+  grid-template-columns: minmax(0, 1fr) 34px;
+  gap: 6px;
 }
 
 .share-line code {
@@ -389,6 +423,11 @@ textarea:focus {
   background: #f7faf9;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.audience-side .share-line code {
+  padding: 8px 9px;
+  font-size: 0.76rem;
 }
 
 .share-line button,
@@ -404,10 +443,19 @@ textarea:focus {
   height: 42px;
 }
 
+.audience-side .share-line button {
+  height: 34px;
+}
+
 .mini-sessions {
   display: flex;
   gap: 8px;
   margin-top: 14px;
+}
+
+.audience-side .mini-sessions {
+  gap: 6px;
+  margin-top: 8px;
 }
 
 .mini-sessions span {
@@ -419,6 +467,11 @@ textarea:focus {
   text-align: center;
   font-size: 0.82rem;
   font-weight: 800;
+}
+
+.audience-side .mini-sessions span {
+  padding: 6px;
+  font-size: 0.74rem;
 }
 
 .mini-sessions .current {
@@ -442,6 +495,22 @@ textarea:focus {
   padding: 18px;
 }
 
+.audience-side .agenda-panel {
+  padding: 14px;
+}
+
+.audience-side .agenda-panel .panel-heading {
+  margin-bottom: 10px;
+}
+
+.audience-side .agenda-panel h2 {
+  font-size: 1.05rem;
+}
+
+.audience-side .agenda-panel .panel-heading p {
+  font-size: 0.84rem;
+}
+
 .summary-rail .agenda-panel {
   padding: 0;
   border: 0;
@@ -463,6 +532,16 @@ textarea:focus {
   align-items: start;
   padding: 10px 0;
   border-top: 1px solid #e5eeea;
+}
+
+.audience-side .agenda-list {
+  gap: 6px;
+}
+
+.audience-side .agenda-list li {
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 8px;
+  padding: 7px 0;
 }
 
 .agenda-list time {
