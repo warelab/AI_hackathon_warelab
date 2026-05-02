@@ -351,6 +351,7 @@ textarea:focus {
 }
 
 .audience-side .join-panel {
+  order: 2;
   justify-self: end;
   width: min(100%, 300px);
   padding: 12px;
@@ -496,6 +497,7 @@ textarea:focus {
 }
 
 .audience-side .agenda-panel {
+  order: 1;
   padding: 14px;
 }
 
