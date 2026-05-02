@@ -35,7 +35,7 @@ The app also prints a network URL in the terminal. Use that URL for audience dev
 
 This repo includes a GitHub Pages workflow at `.github/workflows/deploy-pages.yml`.
 
-GitHub Pages hosts the static interface. Because GitHub Pages cannot run the Express API, hosted questions are saved only in each visitor's browser using localStorage. For live room-wide question collection, run `npm run dev` on one machine and share the printed network URL or QR code.
+GitHub Pages hosts the static interface. Because GitHub Pages cannot run the Express API, hosted responses are saved in each visitor's browser using localStorage. For a shared live room hub, run `npm run dev` on one machine and share the printed network URL or QR code.
 
 ## What It Includes
 

@@ -64,7 +64,7 @@ function useApi() {
       setEvent(eventData);
       setQuestions(readStoredQuestions());
       setStaticMode(true);
-      setError("Static GitHub Pages mode: questions are saved only in this browser. Use the local server for live room-wide collection.");
+      setError("Hosted hub mode: responses are saved in this browser. For a shared live room hub, run the local server and share its QR code.");
     }
   }
 
