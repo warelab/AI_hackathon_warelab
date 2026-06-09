@@ -1,4 +1,4 @@
-# sciapps_gwas_conda — GWAS Pipeline for Sorghum
+# sciapps_gwas_conda — GWAS Pipeline from sciapps
 
 A Nextflow DSL2 pipeline that performs genome-wide association studies using TASSEL 5 (MLM) and EMMAX, running via a shared conda environment on SLURM.
 
