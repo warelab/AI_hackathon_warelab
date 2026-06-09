@@ -1,0 +1,10 @@
+#test_data/chr10.vcf.gz
+#test_data/chr1.vcf.gz
+#test_data/chr2.vcf.gz
+#test_data/chr3.vcf.gz
+#test_data/chr4.vcf.gz
+#test_data/chr5.vcf.gz
+#test_data/chr6.vcf.gz
+#test_data/chr7.vcf.gz
+test_data/chr8.vcf.gz
+test_data/chr9.vcf.gz
